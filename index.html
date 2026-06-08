@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desarrollo de soluciones digitales, páginas web, sistemas personalizados y automatizaciones para empresas. Transforma tu negocio con tecnología que funciona.">
+  <meta name="keywords" content="desarrollo web, sistemas empresariales, automatización, inteligencia artificial, páginas web, plataformas digitales">
+  <meta name="author" content="Carlos">
+  <title>Carlos | Soluciones Digitales &mdash; Desarrollo Web, Sistemas & IA</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <div class="brand-icon">C</div>
+        <span>Carlos<span class="gradient-text">Dev</span></span>
+      </a>
+      <div class="navbar-links" id="navbar-links">
+        <a href="#capacidades">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#audiencia">Clientes</a>
+        <a href="#contacto" class="navbar-cta">Cotizar Proyecto</a>
+        <a href="https://wa.me/528114958665?text=Hola%20Carlos,%20vi%20tu%20portafolio%20y%20me%20gustaría%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="navbar-mobile-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Cel: 81 1495 8665
+        </a>
+      </div>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Disponible para nuevos proyectos
+        </div>
+
+        <h1 class="hero-title">
+          <span class="line">Desarrollo <span class="gradient-text">soluciones digitales</span></span>
+          <span class="line">que impulsan tu negocio</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Desde páginas web empresariales hasta plataformas completas, sistemas internos y soluciones con inteligencia artificial. Creo tecnología que resuelve problemas reales y genera resultados.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary btn-large">
+            Ver proyectos
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#contacto" class="btn btn-secondary btn-large">
+            Solicitar una demostración
+          </a>
+          <a href="#contacto" class="btn btn-outline btn-large">
+            Cotizar un proyecto
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-value" data-count="3">0+</span>
+            <span class="hero-stat-label">Proyectos entregados</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value" data-count="5">0+</span>
+            <span class="hero-stat-label">Tecnologías dominadas</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">100%</span>
+            <span class="hero-stat-label">Compromiso con resultados</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CAPABILITIES SECTION ========== -->
+  <section class="capabilities section" id="capacidades">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
+          Capacidades
+        </span>
+        <h2 class="section-title">Qué puedo hacer por tu empresa</h2>
+        <p class="section-subtitle">
+          Cada negocio es diferente. Por eso diseño y desarrollo soluciones digitales a la medida, adaptadas a tus objetivos, tu equipo y tu mercado.
+        </p>
+      </div>
+
+      <div class="capabilities-grid">
+        <!-- Card 1 -->
+        <div class="capability-card reveal reveal-delay-1">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Páginas Web Empresariales</h3>
+          <p>Sitios web modernos y rápidos para negocios pequeños, medianos y grandes que necesitan presencia digital profesional.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="capability-card reveal reveal-delay-2">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          </div>
+          <h3>Landing Pages de Alto Impacto</h3>
+          <p>Páginas de aterrizaje diseñadas para convertir visitantes en clientes, perfectas para lanzamientos y campañas de ventas.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="capability-card reveal reveal-delay-3">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+          </div>
+          <h3>Sistemas Internos</h3>
+          <p>Software a medida para gestionar operaciones, equipos y procesos dentro de tu empresa de forma organizada.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="capability-card reveal reveal-delay-1">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 8h2"/><path d="M7 12h5"/></svg>
+          </div>
+          <h3>Dashboards & Paneles</h3>
+          <p>Paneles administrativos y dashboards interactivos para visualizar datos clave y tomar decisiones informadas.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="capability-card reveal reveal-delay-2">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Automatización de Procesos</h3>
+          <p>Elimina tareas repetitivas con automatizaciones inteligentes que ahorran tiempo y reducen errores en tu operación.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="capability-card reveal reveal-delay-3">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Inteligencia Artificial & Visión</h3>
+          <p>Soluciones con IA y visión por computadora para detección, clasificación y análisis inteligente de datos visuales.</p>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="capability-card reveal reveal-delay-1">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Plataformas de Conexión</h3>
+          <p>Plataformas para conectar personas, servicios u oficios. Marketplaces y redes que generan valor para tus usuarios.</p>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="capability-card reveal reveal-delay-2">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+          </div>
+          <h3>Sistemas de Tickets & Soporte</h3>
+          <p>Herramientas de gestión de soporte, reportes y seguimiento para mejorar la atención interna y externa.</p>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="capability-card reveal reveal-delay-3">
+          <div class="capability-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3>Plataformas Web Completas</h3>
+          <p>Desarrollo integral de plataformas web con bases de datos, autenticación, roles y funcionalidades avanzadas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects section" id="proyectos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/></svg>
+          Portafolio
+        </span>
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <p class="section-subtitle">
+          Cada proyecto refleja un compromiso con la calidad, la funcionalidad y la experiencia del usuario. Así es como transformo ideas en soluciones reales.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Plataforma de Empleos -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="img/project-1.png" alt="Plataforma de empleos y oficios" loading="lazy">
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              Proyecto Destacado
+            </div>
+            <h3>Plataforma de Empleos y Oficios</h3>
+            <p>
+              Una plataforma diseñada para conectar personas con oportunidades laborales y prestadores de servicios de manera sencilla y organizada. Un puente digital entre el talento y la oportunidad.
+            </p>
+            <div class="project-features">
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Registro de usuarios
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Búsqueda inteligente
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Publicación de servicios
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Interfaz intuitiva
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Conexión directa
+              </span>
+            </div>
+            <div class="project-tech">
+              <span>Web App</span>
+              <span>Base de Datos</span>
+              <span>API REST</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Sistema de Ticketería -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="img/project-2.png" alt="Sistema de ticketería para Grupo NEST" loading="lazy">
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              Sistema Empresarial
+            </div>
+            <h3>Sistema de Ticketería — Grupo NEST</h3>
+            <p>
+              Sistema interno de soporte y gestión de tickets que transformó la manera en que la empresa maneja reportes, seguimientos y resoluciones. Más organización, menos caos.
+            </p>
+            <div class="project-features">
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Creación de tickets
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Asignación de técnicos
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Control de prioridades
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Historial completo
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Panel multi-rol
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Seguimiento en tiempo real
+              </span>
+            </div>
+            <div class="project-tech">
+              <span>Sistema Interno</span>
+              <span>Panel Admin</span>
+              <span>Multi-usuario</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: YOLO Detection -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="img/project-3.png" alt="Software de detección con YOLO e inteligencia artificial" loading="lazy">
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              Inteligencia Artificial
+            </div>
+            <h3>Detección de Componentes con IA</h3>
+            <p>
+              Sistema basado en visión por computadora e inteligencia artificial que detecta y clasifica componentes electrónicos en tiempo real usando modelos YOLO de última generación.
+            </p>
+            <div class="project-features">
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Detección en tiempo real
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Integración con cámara
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Modelo YOLO
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Interfaz visual
+              </span>
+              <span class="project-feature">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Uso industrial/educativo
+              </span>
+            </div>
+            <div class="project-tech">
+              <span>YOLO</span>
+              <span>Computer Vision</span>
+              <span>Python</span>
+              <span>IA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="services section" id="servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          Servicios
+        </span>
+        <h2 class="section-title">Soluciones para cada necesidad</h2>
+        <p class="section-subtitle">
+          No importa el tamaño de tu empresa o la complejidad de tu proyecto. Tengo las herramientas y la experiencia para hacerlo realidad.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Páginas Web Empresariales</h3>
+          <p>Sitios web que transmiten profesionalismo y generan confianza en tus clientes.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Sistemas Personalizados</h3>
+          <p>Software hecho a tu medida para resolver los retos específicos de tu operación.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3>Automatización de Procesos</h3>
+          <p>Menos tareas manuales, más eficiencia. Automatiza lo repetitivo y enfócate en crecer.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+          </div>
+          <h3>Administración Interna</h3>
+          <p>Paneles y herramientas internas para organizar equipos, datos y flujos de trabajo.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Sistemas con IA</h3>
+          <p>Inteligencia artificial aplicada a tu negocio: detección, análisis y automatización inteligente.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3>Integración de Bases de Datos</h3>
+          <p>Arquitectura de datos robusta y escalable para que tu información esté siempre organizada.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+          </div>
+          <h3>Diseño de Interfaces</h3>
+          <p>Interfaces modernas, atractivas y fáciles de usar que enamoran a los usuarios desde el primer clic.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3>Plataformas Web</h3>
+          <p>Desde marketplaces hasta redes de servicios. Plataformas completas listas para escalar.</p>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          </div>
+          <h3>Soluciones Escalables</h3>
+          <p>Tecnología que crece contigo. Desde negocios locales hasta empresas con operación nacional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AUDIENCE SECTION ========== -->
+  <section class="audience section" id="audiencia">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Clientes
+        </span>
+        <h2 class="section-title">Para quién trabajo</h2>
+        <p class="section-subtitle">
+          Mis servicios se adaptan al tamaño y las necesidades de cada cliente. No importa en qué etapa esté tu negocio, hay una solución para ti.
+        </p>
+      </div>
+
+      <div class="audience-grid">
+        <div class="audience-card reveal reveal-delay-1">
+          <div class="audience-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Negocios Pequeños</h3>
+          <p>Presencia digital profesional con páginas web y herramientas que atraen clientes.</p>
+        </div>
+
+        <div class="audience-card reveal reveal-delay-2">
+          <div class="audience-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Empresas Medianas</h3>
+          <p>Sistemas para organizar procesos, mejorar operaciones y escalar con orden.</p>
+        </div>
+
+        <div class="audience-card reveal reveal-delay-3">
+          <div class="audience-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/></svg>
+          </div>
+          <h3>Empresas Grandes</h3>
+          <p>Soluciones personalizadas, integraciones complejas y sistemas internos robustos.</p>
+        </div>
+
+        <div class="audience-card reveal reveal-delay-4">
+          <div class="audience-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
+          </div>
+          <h3>Emprendedores</h3>
+          <p>Validación de ideas con prototipos funcionales y plataformas mínimas viables.</p>
+        </div>
+
+        <div class="audience-card reveal reveal-delay-5">
+          <div class="audience-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 12 3 12 0v-5"/></svg>
+          </div>
+          <h3>Instituciones Educativas</h3>
+          <p>Proyectos tecnológicos, herramientas educativas y sistemas de gestión académica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPECTATIONS SECTION ========== -->
+  <section class="expectations section" id="expectativas">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Compromiso
+        </span>
+        <h2 class="section-title">Qué puede esperar el cliente</h2>
+        <p class="section-subtitle">
+          Más que código, entrego soluciones pensadas para funcionar en el mundo real y crecer con tu negocio.
+        </p>
+      </div>
+
+      <div class="expectations-wrapper reveal">
+        <div class="expectations-visual">
+          <div class="expectations-graphic">
+            <svg class="shield-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+          </div>
+          <span class="floating-tag">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Diseño Premium
+          </span>
+          <span class="floating-tag">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Escalable
+          </span>
+          <span class="floating-tag">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Comunicación Clara
+          </span>
+          <span class="floating-tag">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Funcional
+          </span>
+        </div>
+
+        <div class="expectations-list">
+          <div class="expectation-item">
+            <div class="expectation-check">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Diseño profesional y moderno</h4>
+              <p>Interfaces que transmiten confianza y reflejan la identidad de tu marca.</p>
+            </div>
+          </div>
+
+          <div class="expectation-item">
+            <div class="expectation-check">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Soluciones adaptadas a tu negocio</h4>
+              <p>Nada genérico. Cada proyecto se diseña pensando en tus necesidades reales.</p>
+            </div>
+          </div>
+
+          <div class="expectation-item">
+            <div class="expectation-check">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Comunicación clara durante el proyecto</h4>
+              <p>Siempre sabrás en qué etapa está tu proyecto y qué viene después.</p>
+            </div>
+          </div>
+
+          <div class="expectation-item">
+            <div class="expectation-check">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Sistemas que resuelven problemas reales</h4>
+              <p>Tecnología con propósito, enfocada en resultados tangibles para tu operación.</p>
+            </div>
+          </div>
+
+          <div class="expectation-item">
+            <div class="expectation-check">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Escalabilidad para crecer</h4>
+              <p>Tu solución está preparada para evolucionar junto con tu empresa.</p>
+            </div>
+          </div>
+
+          <div class="expectation-item">
+            <div class="expectation-check">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Entrega organizada y funcional</h4>
+              <p>Recibes un producto terminado, documentado y listo para usarse desde el día uno.</p>
+            </div>
+          </div>
+
+          <div class="expectation-item">
+            <div class="expectation-check">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Tecnología fácil de usar</h4>
+              <p>No necesitas ser experto en tecnología. Tus herramientas serán intuitivas y simples.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS SECTION ========== -->
+  <section class="process section" id="proceso">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          Metodología
+        </span>
+        <h2 class="section-title">Cómo trabajamos juntos</h2>
+        <p class="section-subtitle">
+          Un proceso claro y estructurado para que siempre sepas qué esperar. Sin sorpresas, solo resultados.
+        </p>
+      </div>
+
+      <div class="process-timeline reveal">
+        <div class="process-step">
+          <div class="process-number">1</div>
+          <h3>Escuchamos tu idea</h3>
+          <p>Conocemos tu negocio, tus retos y lo que quieres lograr con tecnología.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">2</div>
+          <h3>Analizamos la solución</h3>
+          <p>Evaluamos las opciones y definimos qué tipo de sistema o herramienta necesitas.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">3</div>
+          <h3>Diseñamos la estructura</h3>
+          <p>Creamos la arquitectura, las pantallas y el flujo de la solución antes de escribir código.</p>
+        </div>
+      </div>
+
+      <div class="process-timeline process-row-2 reveal">
+        <div class="process-step">
+          <div class="process-number">4</div>
+          <h3>Desarrollamos</h3>
+          <p>Construimos la solución con tecnologías modernas, enfocándonos en calidad y rendimiento.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">5</div>
+          <h3>Probamos y ajustamos</h3>
+          <p>Realizamos pruebas exhaustivas y refinamos cada detalle para asegurar que todo funcione.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">6</div>
+          <h3>Entregamos listo</h3>
+          <p>Recibes tu proyecto funcionando, con documentación y soporte para que arranques sin complicaciones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA SECTION ========== -->
+  <section class="cta-section" id="contacto">
+    <div class="cta-bg"></div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2>
+          ¿Listo para llevar tu negocio <span class="gradient-text">al siguiente nivel</span>?
+        </h2>
+        <p>
+          Ya sea que necesites una página web, un sistema completo o una solución con inteligencia artificial, estoy listo para hacerlo realidad. Hablemos de tu proyecto.
+        </p>
+        <div class="cta-actions">
+          <a href="https://wa.me/528114958665?text=Hola%20Carlos,%20vi%20tu%20portafolio%20y%20me%20gustaría%20solicitar%20una%20demostración%20de%20tus%20proyectos." target="_blank" rel="noopener noreferrer" class="btn btn-orange btn-large" id="cta-demo">
+            Solicitar una demostración
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="https://wa.me/528114958665?text=Hola%20Carlos,%20vi%20tu%20portafolio%20y%20me%20gustaría%20cotizar%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large" id="cta-quote">
+            Cotizar un proyecto
+          </a>
+          <a href="tel:+528114958665" class="btn btn-secondary btn-large" id="cta-meeting">
+            Llamar ahora
+          </a>
+        </div>
+
+        <!-- Tarjetas de contacto directo -->
+        <div class="contact-info-cards reveal reveal-delay-2">
+          <a href="https://wa.me/528114958665?text=Hola%20Carlos,%20vi%20tu%20portafolio%20y%20me%20gustaría%20platicar%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-card-icon whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </div>
+            <div class="contact-card-details">
+              <span class="contact-label">WhatsApp Directo</span>
+              <span class="contact-value">+52 81 1495 8665</span>
+            </div>
+          </a>
+          <a href="tel:+528114958665" class="contact-card">
+            <div class="contact-card-icon phone">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-card-details">
+              <span class="contact-label">Llamada Celular</span>
+              <span class="contact-value">+52 81 1495 8665</span>
+            </div>
+          </a>
+        </div>
+        <p class="cta-note">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Sin compromiso. La primera consulta es gratuita.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <div class="brand-icon">C</div>
+        <span>Carlos<span class="gradient-text">Dev</span></span>
+      </div>
+      <p class="footer-copy">
+        &copy; 2026 Carlos. Todos los derechos reservados.<br>
+        <a href="tel:+528114958665" class="footer-phone">Celular: +52 81 1495 8665</a>
+      </p>
+      <div class="footer-links">
+        <a href="#capacidades">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <!-- ========== FLOATING WHATSAPP BUTTON ========== -->
+  <a href="https://wa.me/528114958665?text=Hola%20Carlos,%20vi%20tu%20portafolio%20y%20me%20gustaría%20platicar%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="whatsapp-fab" id="whatsapp-fab" aria-label="Chatear por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L3 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+    <span class="whatsapp-tooltip">¡Hablemos de tu proyecto!</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
